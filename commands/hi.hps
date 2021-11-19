@@ -6,4 +6,4 @@ bot.execute {
      }
 };
 
-then.return 'index.hps'
+callback.file 'index.hps'
