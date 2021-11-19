@@ -1,6 +1,7 @@
 i.Discord.ac
 get.id'command'=bot.command
 set prefix ='f!'
+from file 'commands' import commands
 
 //register discord slash commands
 register_slash.commands {
