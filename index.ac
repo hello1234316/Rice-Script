@@ -1,0 +1,12 @@
+i.Discord_bot
+get.id'command'=bot.command
+set prefix ='f!'
+
+//start the code for command
+id='command'{
+         if message ='[$prefix]hello';
+      then.reply'hello!'
+           }
+
+//put your token here
+token.login='TOKEN'
