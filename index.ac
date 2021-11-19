@@ -1,12 +1,24 @@
-i.Discord_bot
+i.Discord.ac
 get.id'command'=bot.command
 set prefix ='f!'
 
-//start the code for command
-id='command'{
-         if message ='[$prefix]hello';
-      then.reply'hello!'
-           }
+//register discord slash commands
+register_slash.commands {
+       clientId = 'ID';
+       guildId = 'ID';
+            }
+
+//log
+set.log () => { 
+    ('starting refresh discord slash commands');
+  await.check(
+        discord.slashcommands(guildId,clientId),
+        );
+set.log success ('successfully refresh discord slash commands')
+    catch.error {
+          error.message (cannot refresh command [$command.error],because of [$error])
+               }
+                 }
 
 //put your token here
 token.login='TOKEN'
