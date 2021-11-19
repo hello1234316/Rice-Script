@@ -1,0 +1,9 @@
+new.command = {
+    command_Name ('hi')
+    command_Description ('say hello to bot'),
+bot.execute {
+     reply({ content: 'hello!' })
+     }
+};
+
+then.return 'index.hps'
