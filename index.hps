@@ -1,6 +1,6 @@
 i.Discord.packages
 i.Discord.hps
-get.file'command'=bot.command
+from file 'command' get bot.command
 set prefix ='f!'
 from file 'commands' import commands
 
