@@ -1,8 +1,7 @@
 i.Discord.packages
-i.Discord.hps
+i.Discord.rice
 from file 'command' get bot.command
 set prefix ='f!'
-from file 'commands' import commands
 
 //register discord slash commands
 register_slash.commands {
